@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Booking | DOOH Philippines</title>
+  <meta name="description" content="Book a DOOH Philippines digital billboard — site details, panel sizes and rates for every site." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="assets/favicon-32.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="page-dark">
+
+  <!-- ===== Header / Nav ===== -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="DOOH.ph home">
+        <img src="assets/DOOH-LOGO.png" alt="DOOH.ph — Digital Out-of-Home Media" class="logo-img" />
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Main">
+        <a href="index.html" class="nav-link" data-spy="top">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <div class="nav-dropdown">
+          <button type="button" class="nav-link nav-dropdown__trigger" data-spy="offer" aria-haspopup="true" aria-expanded="false">Products</button>
+          <div class="nav-dropdown__menu">
+            <a href="index.html#offer">LED</a>
+            <a href="index.html#offer">LED Billboards</a>
+            <a href="index.html#offer">Billboards</a>
+            <a href="index.html#offer">Lightposts</a>
+            <a href="index.html#offer">Lightbox</a>
+          </div>
+        </div>
+        <a href="locations.html" class="nav-link">Locations</a>
+        <a href="booking.html" class="nav-link is-active" aria-current="page">Booking</a>
+        <a href="contact.html" class="nav-link">Contact Us</a>
+      </nav>
+
+      <button type="button" class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="booking">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="index.html">Home</a><span aria-hidden="true">&gt;</span>
+      <a href="index.html#offer">Products</a><span aria-hidden="true">&gt;</span>
+      <a href="locations.html">Locations</a><span aria-hidden="true">&gt;</span>
+      <span aria-current="page">Booking</span>
+    </nav>
+
+    <div class="site-picker">
+      <label for="siteSelect" class="site-picker__label">Choose a site</label>
+      <div class="site-picker__row">
+        <button type="button" class="site-picker__nav" id="sitePrev" aria-label="Previous site">&larr;</button>
+        <select id="siteSelect" class="site-picker__select"></select>
+        <button type="button" class="site-picker__nav" id="siteNext" aria-label="Next site">&rarr;</button>
+      </div>
+    </div>
+
+    <h1 class="booking-title" id="siteTitle">One EDSA NB</h1>
+
+    <div class="booking-grid">
+      <div class="booking-photo" id="sitePhotoWrap">
+        <img id="sitePhoto" src="assets/booking/bmnd6n.jpg" alt="One EDSA NB digital billboard" width="730" height="1199" />
+      </div>
+
+      <dl class="spec" id="siteSpec">
+        <div class="spec-row"><dt>Site code</dt><dd>BMND6N</dd></div>
+        <div class="spec-row"><dt>Size (feet)</dt><dd>282h x 78w</dd></div>
+        <div class="spec-row"><dt>Size (pixels)</dt><dd>2256h x 624w</dd></div>
+        <div class="spec-row"><dt>Orientation</dt><dd>Vertical</dd></div>
+        <div class="spec-row"><dt>Location</dt><dd>G.A. Tower, EDSA Boni Ave., Mandaluyong</dd></div>
+      </dl>
+    </div>
+
+    <div class="rates" id="siteRates">
+      <div class="rate">
+        <div class="rate-head"><span>Regular Time</span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 9l7 7 7-7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <p class="rate-price">&#8369;286.60 / $5.10</p>
+        <p class="rate-note">(per spot) + VAT</p>
+      </div>
+      <div class="rate">
+        <div class="rate-head"><span>Prime Time</span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 9l7 7 7-7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <p class="rate-price">&#8369;572.00 / $10.20</p>
+        <p class="rate-note">(per spot) + VAT</p>
+      </div>
+      <div class="rate">
+        <div class="rate-head"><span>Block Time</span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 9l7 7 7-7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <p class="rate-price">&#8369;1,200 / $21.50</p>
+        <p class="rate-note">(per spot) + VAT</p>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer" id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="logo" aria-label="DOOH.ph home">
+          <img src="assets/DOOH-LOGO.png" alt="DOOH.ph — Digital Out-of-Home Media" class="logo-img" />
+        </a>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/doohph/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            Instagram
+          </a>
+          <a href="https://www.facebook.com/doohph" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M13.5 20v-6.5h2.2l.4-2.6h-2.6V9.3c0-.8.3-1.3 1.4-1.3h1.3V5.7c-.2 0-1-.1-1.9-.1-2 0-3.3 1.2-3.3 3.4v1.9H8.8v2.6H11V20" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Facebook
+          </a>
+        </div>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="index.html#offer">Products</a>
+        <a href="locations.html">Locations</a>
+        <a href="booking.html">Booking</a>
+      </nav>
+
+      <div class="footer-contact">
+        <p class="footer-heading">Tell us about your project</p>
+        <p><a href="mailto:outdoorman@mac.com">outdoorman@mac.com</a></p>
+        <p class="footer-heading">Find us at</p>
+        <p>Unit 27-I Avant at the Fort, Bonifacio Global City,<br />Taguig City Philippines, 1630</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>Copyright &copy; <span id="year"></span> DOOH Philippines. All Rights Reserved.</p>
+      <p>Developed &amp; Maintained by <a href="https://rojas-portfolio.vercel.app/" target="_blank" rel="noopener">Mel Rojas</a></p>
+    </div>
+  </footer>
+
+  <script src="js/sites.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

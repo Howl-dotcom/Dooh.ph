@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DOOH</title>
+  <meta name="description" content="DOOH Philippines — super-premium, globally iconic digital and static out-of-home advertising: LED, LED billboards, billboards, lightposts and lightboxes, nationwide." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="assets/favicon-32.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+
+  <script>
+    (function () {
+      var root = document.documentElement;
+      try {
+        var calm = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+        if (calm) root.classList.add("skip-loader");
+        else root.classList.add("is-loading");
+      } catch (e) { root.classList.add("is-loading"); }
+    })();
+  </script>
+  <noscript><style>.loader{display:none !important}html.is-loading{overflow:auto !important}</style></noscript>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="">
+
+  <!-- ===== Loading screen ===== -->
+  <div class="loader" id="loader" role="status" aria-live="polite">
+    <span class="sr-only">Loading DOOH Philippines</span>
+    <div class="loader-cloud loader-cloud--one" aria-hidden="true"></div>
+    <div class="loader-cloud loader-cloud--two" aria-hidden="true"></div>
+    <div class="loader-cloud loader-cloud--three" aria-hidden="true"></div>
+    <div class="loader-grid" aria-hidden="true"></div>
+    <div class="loader-orbit loader-orbit--one" aria-hidden="true"></div>
+    <div class="loader-orbit loader-orbit--two" aria-hidden="true"></div>
+    <div class="loader-orbit loader-orbit--three" aria-hidden="true"></div>
+    <div class="loader-shockwave loader-shockwave--one" aria-hidden="true"></div>
+    <div class="loader-shockwave loader-shockwave--two" aria-hidden="true"></div>
+    <div class="loader-shockwave loader-shockwave--three" aria-hidden="true"></div>
+    <div class="loader-smoke loader-smoke--pink" aria-hidden="true"></div>
+    <div class="loader-smoke loader-smoke--purple" aria-hidden="true"></div>
+    <div class="loader-smoke loader-smoke--blue" aria-hidden="true"></div>
+    <div class="loader-smoke loader-smoke--pink loader-smoke--four" aria-hidden="true"></div>
+    <div class="loader-smoke loader-smoke--purple loader-smoke--five" aria-hidden="true"></div>
+    <div class="loader-smoke loader-smoke--blue loader-smoke--six" aria-hidden="true"></div>
+
+    <div class="loader-stage">
+      <div class="loader-kicker"><span></span> DIGITAL OUT-OF-HOME MEDIA</div>
+      <div class="loader-brand">
+        <div class="loader-brand__frame">
+          <img src="assets/dooh-logo-dark.png" alt="DOOH.ph" class="loader-brand__logo" />
+        </div>
+        <div class="loader-brand__line"></div>
+      </div>
+      <h1 class="loader-title">Make your brand<br /><span>stand out.</span></h1>
+      <p class="loader-subtext"><span id="loaderTyping"></span><span class="loader-cursor" aria-hidden="true"></span></p>
+    </div>
+  </div>
+
+  <!-- ===== Header / Nav ===== -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="DOOH.ph home">
+        <img src="assets/DOOH-LOGO.png" alt="DOOH.ph — Digital Out-of-Home Media" class="logo-img" />
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Main">
+        <a href="index.html" class="nav-link is-active" data-spy="top" aria-current="page">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <div class="nav-dropdown">
+          <button type="button" class="nav-link nav-dropdown__trigger" data-spy="offer" aria-haspopup="true" aria-expanded="false">Products</button>
+          <div class="nav-dropdown__menu">
+            <a href="index.html#offer">LED</a>
+            <a href="index.html#offer">LED Billboards</a>
+            <a href="index.html#offer">Billboards</a>
+            <a href="index.html#offer">Lightposts</a>
+            <a href="index.html#offer">Lightbox</a>
+          </div>
+        </div>
+        <a href="locations.html" class="nav-link" data-spy="locations">Locations</a>
+        <a href="booking.html" class="nav-link">Booking</a>
+        <a href="contact.html" class="nav-link">Contact Us</a>
+      </nav>
+
+      <button type="button" class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="top">
+      <img class="hero-cloud hero-cloud--1" src="assets/hero-cloud-1.png" alt="" aria-hidden="true" />
+      <img class="hero-cloud hero-cloud--2" src="assets/hero-cloud-2.png" alt="" aria-hidden="true" />
+
+      <div class="hero-copy">
+        <h1 class="hero-title">
+          <span class="hero-title__top">Make your brand</span>
+          <span class="hero-title__main">Stand out</span>
+        </h1>
+        <p class="hero-lede">
+          The Art of Outdoor - DOOH fills a unique position in the Out-of-Home
+          (OOH) Advertising landscape, specialising only in digital, super-premium
+          Globally iconic screen locations.
+        </p>
+      </div>
+
+      <div class="hero-stage">
+        <div class="hero-skyline" aria-hidden="true"></div>
+
+        <div class="hero-billboard">
+          <img class="hero-billboard__lamps" src="assets/hero-lamps.png" alt="" aria-hidden="true" />
+          <div class="hero-billboard__screen">
+            <img src="assets/dooh-hero.gif" alt="DOOH digital billboard creative playing on a city screen" />
+          </div>
+          <img class="hero-billboard__pole" src="assets/hero-pole.png" alt="" aria-hidden="true" />
+        </div>
+
+        <a href="booking.html" class="hero-book">Book now !</a>
+        <a href="#offer" class="hero-scroll" aria-label="Scroll to What we offer">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 9l7 7 7-7" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- ===== What we offer ===== -->
+    <section class="offer" id="offer">
+      <h2 class="offer-title">What we offer</h2>
+      <div class="offer-grid">
+          <article class="offer-card">
+            <h3>LED</h3>
+            <div class="offer-card__media"><img src="assets/offer/led.jpg" alt="LED wall display showing a pixel grid" loading="lazy" /></div>
+            <span class="bar" aria-hidden="true"></span>
+          </article>
+          <article class="offer-card">
+            <h3>LED Billboards</h3>
+            <div class="offer-card__media"><img src="assets/offer/led-billboards.jpg" alt="LED billboard above a busy road" loading="lazy" /></div>
+            <span class="bar" aria-hidden="true"></span>
+          </article>
+          <article class="offer-card">
+            <h3>Billboards</h3>
+            <div class="offer-card__media"><img src="assets/offer/billboards.jpg" alt="Static billboard beside a road" loading="lazy" /></div>
+            <span class="bar" aria-hidden="true"></span>
+          </article>
+          <article class="offer-card">
+            <h3>Lightposts</h3>
+            <div class="offer-card__media"><img src="assets/offer/lightposts.jpg" alt="Lamppost banner on a street pole" loading="lazy" /></div>
+            <span class="bar" aria-hidden="true"></span>
+          </article>
+          <article class="offer-card">
+            <h3>Lightbox</h3>
+            <div class="offer-card__media"><img src="assets/offer/lightbox.jpg" alt="Illuminated lightbox display" loading="lazy" /></div>
+            <span class="bar" aria-hidden="true"></span>
+          </article>
+      </div>
+    </section>
+
+    <!-- ===== Nationwide + Make it shine ===== -->
+    <section class="nation" id="locations">
+      <div class="nation-panel">
+        <div class="nation-photo" aria-hidden="true">
+          <img src="assets/nationwide-bg.jpg" alt="" loading="lazy" />
+        </div>
+
+        <div class="nation-inner">
+          <div class="nation-head">
+            <p class="nation-eyebrow">We are found</p>
+            <h2 class="nation-title">Nationwide</h2>
+            <p class="nation-sub">From city streets to nationwide reach, we put your brand where it gets seen.</p>
+          </div>
+
+          <div class="stats">
+            <div class="stats-row">
+              <div class="stat"><span class="stat-place">Mandaluyong</span><span class="stat-count">300,000 vehicles/day</span></div>
+              <div class="stat"><span class="stat-place">C5</span><span class="stat-count">225,115 vehicles/day</span></div>
+            </div>
+            <div class="stats-row">
+              <div class="stat"><span class="stat-place">EDSA</span><span class="stat-count">300,000 vehicles/day</span></div>
+              <div class="stat"><span class="stat-place">NCR</span><span class="stat-count">1,500,000+ vehicles/day</span></div>
+              <div class="stat"><span class="stat-place">SLEX</span><span class="stat-count">255,000 vehicles/day</span></div>
+            </div>
+            <div class="stats-row">
+              <div class="stat"><span class="stat-place">NLEX</span><span class="stat-count">200,000 vehicles/day</span></div>
+              <div class="stat"><span class="stat-place">Visayas</span><span class="stat-count">200,000 vehicles/day</span></div>
+            </div>
+            <div class="stats-row">
+              <div class="stat"><span class="stat-place">Provincial</span><span class="stat-count">80,000 vehicles/day</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="shine">
+        <div class="shine-inner">
+          <div class="shine-photos">
+            <img src="assets/gallery-1.jpg" alt="DOOH Philippines team and operations" loading="lazy" />
+            <img src="assets/gallery-4.jpg" alt="DOOH Philippines site location showcase" loading="lazy" />
+          </div>
+          <div class="shine-copy">
+            <h3>Make it shine<br />Make it yours.</h3>
+            <p><u>We are DOOH</u>, further boasts of having the largest billboard display area, once tagged by a local broad sheet as &ldquo;<u>The Mother of All Billboards</u>&rdquo;, located strategically at the heart of EDSA Guadalupe.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Our clients ===== -->
+    <section class="clients" id="clients">
+      <h2 class="clients-title">Our clients</h2>
+      <ul class="client-grid" aria-label="Client logos">
+          <li><img src="assets/clients/mcdonalds.png" alt="McDonald's" style="--w:53" loading="lazy" /></li>
+          <li><img src="assets/clients/cignal.png" alt="Cignal" style="--w:64" loading="lazy" /></li>
+          <li><img src="assets/clients/godaddy.png" alt="GoDaddy" style="--w:69" loading="lazy" /></li>
+          <li><img src="assets/clients/rcbc.png" alt="RCBC" style="--w:65" loading="lazy" /></li>
+          <li><img src="assets/clients/citizen.png" alt="Citizen" style="--w:64" loading="lazy" /></li>
+          <li><img src="assets/clients/rado.png" alt="Rado" style="--w:69" loading="lazy" /></li>
+          <li><img src="assets/clients/jollibee.png" alt="Jollibee" style="--w:66" loading="lazy" /></li>
+          <li><img src="assets/clients/cocacola.png" alt="Coca-Cola" style="--w:72" loading="lazy" /></li>
+          <li><img src="assets/clients/lalamove.png" alt="Lalamove" style="--w:66" loading="lazy" /></li>
+          <li><img src="assets/clients/smart.png" alt="Smart" style="--w:52" loading="lazy" /></li>
+          <li><img src="assets/clients/converge.png" alt="Converge" style="--w:62" loading="lazy" /></li>
+          <li><img src="assets/clients/contis.png" alt="Conti's" style="--w:69" loading="lazy" /></li>
+          <li><img src="assets/clients/rockwell.png" alt="Rockwell Land" style="--w:66" loading="lazy" /></li>
+          <li><img src="assets/clients/pepsi.png" alt="Pepsi" style="--w:51" loading="lazy" /></li>
+          <li><img src="assets/clients/foodpanda.png" alt="foodpanda" style="--w:70" loading="lazy" /></li>
+          <li><img src="assets/clients/bench.png" alt="Bench" style="--w:64" loading="lazy" /></li>
+          <li><img src="assets/clients/globe.png" alt="Globe" style="--w:70" loading="lazy" /></li>
+          <li><img src="assets/clients/dito.png" alt="DITO" style="--w:61" loading="lazy" /></li>
+          <li><img src="assets/clients/century-properties.png" alt="Century Properties" style="--w:47" loading="lazy" /></li>
+          <li><img src="assets/clients/honor.png" alt="Honor" style="--w:47" loading="lazy" /></li>
+          <li><img src="assets/clients/powermac.png" alt="PowerMac" style="--w:47" loading="lazy" /></li>
+          <li><img src="assets/clients/goldilocks.png" alt="Goldilocks" style="--w:65" loading="lazy" /></li>
+          <li><img src="assets/clients/wendy.png" alt="Wendy's" style="--w:65" loading="lazy" /></li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer" id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="logo" aria-label="DOOH.ph home">
+          <img src="assets/DOOH-LOGO.png" alt="DOOH.ph — Digital Out-of-Home Media" class="logo-img" />
+        </a>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/doohph/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            Instagram
+          </a>
+          <a href="https://www.facebook.com/doohph" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M13.5 20v-6.5h2.2l.4-2.6h-2.6V9.3c0-.8.3-1.3 1.4-1.3h1.3V5.7c-.2 0-1-.1-1.9-.1-2 0-3.3 1.2-3.3 3.4v1.9H8.8v2.6H11V20" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Facebook
+          </a>
+        </div>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="index.html#offer">Products</a>
+        <a href="locations.html">Locations</a>
+        <a href="booking.html">Booking</a>
+      </nav>
+
+      <div class="footer-contact">
+        <p class="footer-heading">Tell us about your project</p>
+        <p><a href="mailto:outdoorman@mac.com">outdoorman@mac.com</a></p>
+        <p class="footer-heading">Find us at</p>
+        <p>Unit 27-I Avant at the Fort, Bonifacio Global City,<br />Taguig City Philippines, 1630</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>Copyright &copy; <span id="year"></span> DOOH Philippines. All Rights Reserved.</p>
+      <p>Developed &amp; Maintained by <a href="https://rojas-portfolio.vercel.app/" target="_blank" rel="noopener">Mel Rojas</a></p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
